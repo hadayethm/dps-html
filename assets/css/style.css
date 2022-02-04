@@ -1,45 +1,4 @@
 
-/*
-/*
-@File: Transtics Template Styles
-
-* This file contains the styling for the actual template, this
-is the file you need to edit to change the look of the
-template.
-
-This files table contents are outlined below>>>>>
-
-*******************************************
-*******************************************
-
-** - Default CSS
-** - Button Area CSS 
-** - Home Page 01
-** - Home Page 02
-** - Service
-** - Service Details
-** - About
-** - Blog Grid
-** - Blog With Sidebar
-** - Blog Single
-** - Team 
-** - Testimonial
-** - Gallery
-** - Faqs
-** - Track Your Shipment
-** - Sign In
-** - Sign Up
-** - Privacy Policy
-** - Trems And Condition
-** - Error
-** - Contact
-
-Author: Andit_Themes
-developed by: Hadayet Ali
-
-* -----------------------
-        Home 01
---------------------------- *
 
 /*================================================
          Default CSS
@@ -320,6 +279,12 @@ a:focus {
 .partner_logo {
   text-align: center;
 }
+.partner_logo img{
+  transition: .4s all;
+}
+.partner_logo img:hover{
+  transform: translateY(-5px);
+}
 
 /* --Service area-- */
 #service_area{
@@ -597,6 +562,8 @@ padding-left: 85px;
   padding: 65px 45px;
   border-radius: 18px;
   border: 2px solid #ffffff6e;
+  position: relative;
+  z-index: 999;
 }
 .footer_list ul{
   display: flex;
@@ -690,4 +657,24 @@ border: 1px solid #FF3E80;
       -webkit-transform: translate(0, 10px);
       transform: translate(0, 10px);
   }
+}
+
+
+#status {
+  background-image: url("../img/loader.gif");
+  background-repeat: no-repeat;
+  width: 63px;
+  height: 58px;
+}
+#preloader {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
