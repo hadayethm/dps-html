@@ -221,6 +221,12 @@ a:focus {
 .main_banner_content h1{
   color: #fff;
 }
+.main_banner_content h2{
+  background: -webkit-linear-gradient(#03AFEC, #09E5A4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 15px;
+}
 .main_banner_content p{
   color: #fff;
   font-size: 24px;
@@ -263,32 +269,12 @@ a:focus {
 .banner_btn_top{
   display: flex;
   align-items: center;
-  padding-top: 30px;
+  padding-top: 40px;
 }
-.banner_bottom_img{
-  position: absolute;
-  right: 40px;
-  bottom: -33px;
-}
-
 /* --partner area-- */
-#partner_area{
-  padding: 30px 0;
-  background-color: #913AFF;
-}
-.partner_logo {
-  text-align: center;
-}
-.partner_logo img{
-  transition: .4s all;
-}
-.partner_logo img:hover{
-  transform: translateY(-5px);
-}
-
 /* --Service area-- */
 #service_area{
-  padding: 100px 0;
+  padding: 150px 0;
 }
 .secction_heading{
 text-align: center;
@@ -303,7 +289,6 @@ font-size: 18px;
 }
 .service_item{
   background: #181828;
-  box-shadow: 0px 4px 19px 0px #ffffff2b;
   border-radius: 10px;
   text-align: center;
   position: relative;
@@ -331,7 +316,7 @@ font-size: 30px;
 
 /* --about area-- */
 #about_area{
-  padding: 100px 0;
+  padding:0 0 150px 0;
   position: relative;
   z-index: 9;
 }
@@ -344,10 +329,9 @@ font-size: 30px;
 }
 .team_item{
   position: relative;
-  background-image: linear-gradient(to right, #3D3D57 , #10102C);
+  background-image: linear-gradient(to right, #3d3d579c , #10102cb0);
   border-radius: 15px;
   text-align: center;
-  box-shadow: 0px 0px 7px -2px #fff;
   padding: 0px 50px 30px 50px;
   margin-top: 250px;
   transition: .4s all ease-in-out;
@@ -376,7 +360,7 @@ color: #FF3E80;
 }
 /* --letest news--*/
 #latest_new{
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 .news_item{
   background: linear-gradient(#FF5F95, #806BFF) padding-box, linear-gradient(to right, #FF5F95, #806BFF) border-box;
@@ -447,7 +431,7 @@ color: #FF3E80;
 }
 /* --faqs Area-- */
 #faqs_area{
-padding-bottom: 100px;
+padding-bottom: 150px;
 position: relative;
 z-index: 99;
 overflow: hidden;
@@ -511,7 +495,7 @@ font-size: 17px;
 }
 /* --Contact Us-- */
 #contact_area{
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   position: relative;
   z-index: 99;
 }
