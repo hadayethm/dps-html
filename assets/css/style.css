@@ -357,6 +357,7 @@ font-size: 30px;
 }
 .team_item p a{
 color: #FF3E80;
+display: block;
 }
 /* --letest news--*/
 #latest_new{

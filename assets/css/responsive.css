@@ -1,5 +1,10 @@
-@media (max-width: 1440px) {
-
+@media (max-width: 1536px) {
+    #main_banner {
+        background-position: 60%, 100%;
+    }
+    .service_item img {
+        top: -66px;
+    }
 }
 
 @media (max-width: 1199px) {
