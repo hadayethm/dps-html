@@ -402,7 +402,7 @@
   
   @media only screen and (max-width: 991px) {
     .navbar-area {
-        background-color: #ffffff;
+      background-color: #ffffff00;
         padding-top: 15px;
         padding-bottom: 15px;
         height: 80px;
