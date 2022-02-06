@@ -494,6 +494,15 @@ overflow: hidden;
 padding-right: 15px;
 font-size: 17px;
 }
+.fa-angle-down {
+  transition: all 0.3s ease;
+}
+.btn-nav-accordion.collapsed .fa-angle-down {
+  transform: rotate( 
+    270deg
+     );
+    
+}
 /* --Contact Us-- */
 #contact_area{
   padding-bottom: 150px;
@@ -543,10 +552,10 @@ padding-left: 85px;
   padding-bottom: 20px;
 }
 .footer_top_wrapper{
-  background-image: linear-gradient(to right, #10102C, #3D3D57);
+  background-image: linear-gradient(to right, #10102c6b, #3d3d5791);
   padding: 65px 45px;
   border-radius: 18px;
-  border: 2px solid #ffffff6e;
+  border: 2px solid #ffffff0d;
   position: relative;
   z-index: 999;
 }
