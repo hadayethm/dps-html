@@ -659,7 +659,7 @@ border: 1px solid #FF3E80;
   background-image: url("../img/loader.gif");
   background-repeat: no-repeat;
   width: 110px;
-  height: 110px;
+  height: 125px;
   background-size: cover;
 }
 #preloader {
