@@ -658,8 +658,9 @@ border: 1px solid #FF3E80;
 #status {
   background-image: url("../img/loader.gif");
   background-repeat: no-repeat;
-  width: 63px;
-  height: 58px;
+  width: 110px;
+  height: 110px;
+  background-size: cover;
 }
 #preloader {
   background-color: #fff;
