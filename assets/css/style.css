@@ -50,7 +50,7 @@ h6 {
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 48px;
     font-weight: bold;
 }
 
@@ -214,7 +214,7 @@ a:focus {
 #main_banner{
   background-image: url("../img/common/banner.png");
   background-repeat: no-repeat;
-  padding: 200px 0;
+  padding: 140px 0;
   position: relative;
   background-size: cover;
 }
@@ -225,7 +225,7 @@ a:focus {
   background: -webkit-linear-gradient(#03AFEC, #09E5A4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  padding-bottom: 15px;
+  padding-bottom: 60px;
 }
 .main_banner_content p{
   color: #fff;
@@ -279,6 +279,11 @@ a:focus {
 .secction_heading{
 text-align: center;
 padding-bottom: 30px;
+}
+.secction_heading h2{
+  background: -webkit-linear-gradient(#B83CFF, #5F36FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .secction_heading p{
 padding-top:30px;
@@ -360,6 +365,10 @@ font-size: 30px;
 color: #FF3E80;
 display: block;
 }
+#video_area{
+  padding:0 0 100px 0;
+}
+
 /* --letest news--*/
 #latest_new{
   padding-bottom: 150px;
