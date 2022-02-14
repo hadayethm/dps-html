@@ -221,6 +221,10 @@ a:focus {
 .main_banner_content h1{
   color: #fff;
 }
+
+.main_banner_content .phone{
+  font-family: 'Poppins';
+}
 .main_banner_content h2{
   background: -webkit-linear-gradient(#03AFEC, #09E5A4);
   -webkit-background-clip: text;

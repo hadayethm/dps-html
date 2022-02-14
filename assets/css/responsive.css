@@ -5,12 +5,28 @@
     .service_item img {
         top: -66px;
     }
+    .main_banner_content h1 span {
+        display: block;
+        font-size: 36px;
+       }
+    .main_banner_content h1 {
+        display: block;
+        font-size: 50px;
+       }
 }
 
 @media (max-width: 1199px) {
     .footer_list ul li {
         padding-left: 9px;
     }
+    .main_banner_content h1 span {
+        display: block;
+        font-size: 36px;
+       }
+    .main_banner_content h1 {
+        display: block;
+        font-size: 50px;
+       }
   }
 
 @media (max-width: 992px) {
@@ -32,6 +48,14 @@
     text-align: center;
     padding-bottom: 15px;
 }
+.main_banner_content h1 span {
+    display: block;
+    font-size: 36px;
+   }
+.main_banner_content h1 {
+    display: block;
+    font-size: 50px;
+   }
 }
 
 @media (max-width: 767px) {
@@ -45,6 +69,14 @@
     }
     h1 {
         font-size: 45px;
+       }
+    .main_banner_content h1 span {
+        display: block;
+        font-size: 36px;
+       }
+    .main_banner_content h1 {
+        display: block;
+        font-size: 42px;
        }
 }
 
@@ -64,10 +96,26 @@
         display: block;
         margin-top: 36px;
     }
+
+    .main_banner_content h1 span {
+        display: block;
+        font-size: 36px;
+       }
+    .main_banner_content h1 {
+        display: block;
+        font-size: 40px;
+       }
 }
 
 @media (max-width: 480px) {
-  
+  .main_banner_content h1 span {
+        display: block;
+        font-size: 27px;
+       }
+    .main_banner_content h1 {
+        display: block;
+        font-size: 32px;
+       }
 }
 
 @media (max-width: 361px) {
