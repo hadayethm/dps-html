@@ -206,6 +206,9 @@ a:focus {
 .bg_section{
   background-color: #07071C;
 }
+#map_area_one{
+  padding-bottom: 80px;
+}
 
 /* ====================================
         Home One
@@ -297,18 +300,21 @@ padding-bottom: 30px;
   -webkit-text-fill-color: transparent;
 }
 .secction_heading p{
-padding-top:30px;
-font-size: 18px;
+  padding-top: 30px;
+  font-size: 18px;
+  padding-left: 45px;
+  padding-right: 45px;
+  font-weight: 400;
 }
 #service_area .container-fluid{
-  padding: 0 100px;
+  padding: 0 40px;
 }
 .service_item{
   background: #181828;
   border-radius: 10px;
   text-align: center;
   position: relative;
-  padding: 100px 20px 20px 20px;
+  padding: 100px 10px 20px 10px;
   margin-top: 115px;
   z-index: 9;
   transition: .4s all ease-in-out;
@@ -530,7 +536,7 @@ font-size: 17px;
 }
 /* --Contact Us-- */
 #contact_area{
-  padding-bottom: 150px;
+  padding-bottom:80px;
   position: relative;
   z-index: 99;
 }
