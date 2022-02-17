@@ -221,11 +221,7 @@ a:focus {
   position: relative;
   background-size: cover;
 }
-.main_banner_content h3{
-  padding-top: 16px;
-  font-size: 48px;
-  font-weight: 600;
-}
+
 .main_banner_content h4{
   font-size: 24px;
   font-family: 'Poppins', sans-serif;
