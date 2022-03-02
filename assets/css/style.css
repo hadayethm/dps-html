@@ -601,7 +601,7 @@ padding-left: 85px;
   justify-content: center;
 }
 .footer_list ul li{
-  padding-left: 75px;
+  padding-left: 45px;
 }
 .footer_list ul li:first-child{
   padding-left: 0px;
@@ -724,6 +724,7 @@ border: 1px solid #FF3E80;
   font-family: 'Poppins', sans-serif;
   font-size: 38px;
   font-weight: 500;
+  line-height: initial;
 }
 
 .more-info-wrapper .secction_heading {
